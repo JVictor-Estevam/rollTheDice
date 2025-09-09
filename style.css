@@ -1,0 +1,38 @@
+body {
+  background-color: #181818;
+  color: #ffffffd5;
+  font-family: "Instrument Sans", sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.players {
+  display: flex;
+  gap: 8%;
+  padding-top: 0.5%;
+  text-align: center;
+}
+
+.btn {
+  width: 200px;
+  padding: 20px;
+  font-size: larger;
+  font-weight: 900;
+  border-radius: 40px;
+}
+
+.winner {
+  font-size: 4rem;
+  color: rgb(51, 245, 93);
+}
+
+.draw {
+  color: #f5d95d;
+}
